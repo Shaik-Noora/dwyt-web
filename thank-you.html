@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You – Say What You Think</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              600: '#2563eb',
+              700: '#1d4ed8',
+            },
+            navy: {
+              900: '#0f172a',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#FAFAFA] text-slate-800 min-h-screen flex flex-col justify-between font-sans antialiased">
+  <!-- Header -->
+  <header class="w-full border-b border-slate-100 bg-white/80 backdrop-blur-md sticky top-0 z-30">
+    <div class="max-w-[760px] mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
+      <a href="./say-what-you-think.html" class="flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-700 hover:text-navy-900 transition-colors">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"/></svg>
+        <span>Say What You Think</span>
+      </a>
+      <span class="text-xs font-semibold px-2.5 py-1 bg-emerald-50 text-emerald-700 rounded-full border border-emerald-100">
+        Order Confirmed
+      </span>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 max-w-[760px] mx-auto w-full px-4 sm:px-6 py-12 sm:py-16 flex items-center justify-center">
+    <div class="w-full bg-white rounded-3xl border border-slate-200/80 shadow-sm p-6 sm:p-10 text-center">
+      
+      <!-- Success Icon -->
+      <div class="w-16 h-16 sm:w-20 sm:h-20 bg-emerald-50 border-2 border-emerald-100 rounded-full flex items-center justify-center mx-auto mb-6">
+        <svg class="w-9 h-9 sm:w-11 sm:h-11 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+      </div>
+
+      <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-navy-900 tracking-tight mb-3">
+        Thank You for Purchasing the eBook!
+      </h1>
+
+      <p class="text-base sm:text-lg font-medium text-slate-700 max-w-lg mx-auto leading-relaxed mb-6">
+        You will receive the instant digital PDF eBook within 2–3 minutes.
+      </p>
+
+      <!-- Details Card -->
+      <div class="bg-slate-50 border border-slate-100 rounded-2xl p-5 sm:p-6 max-w-md mx-auto text-left space-y-4 mb-8">
+        <div class="flex items-start gap-3.5">
+          <div class="p-2.5 bg-blue-50 rounded-xl text-blue-600 shrink-0 mt-0.5">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/></svg>
+          </div>
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wider text-slate-500">Digital Product</p>
+            <h3 class="font-bold text-sm sm:text-base text-navy-900 leading-snug">Say What You Think</h3>
+            <p class="text-xs text-slate-500 mt-0.5">A Practical Guide to Expressing Yourself in English in this AI Era</p>
+          </div>
+        </div>
+
+        <div class="pt-3 border-t border-slate-200/70 space-y-2.5 text-xs sm:text-sm text-slate-600">
+          <div class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+            <span>Delivery: <strong>Within 2–3 minutes</strong></span>
+          </div>
+          <div class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-blue-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"/></svg>
+            <span>Sent directly to your registered payment email</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-slate-500 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"/></svg>
+            <span>Check your inbox and Spam/Promotions tab</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+        <a href="./say-what-you-think.html" class="w-full sm:w-auto py-3 px-6 rounded-xl text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 transition-colors inline-flex items-center justify-center gap-2 shadow-sm">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"/></svg>
+          <span>Return to Website</span>
+        </a>
+        <a href="https://wa.me/919542065232?text=Hi,%20I%20need%20help%20with%20my%20Say%20What%20You%20Think%20eBook%20purchase" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto py-3 px-6 rounded-xl text-sm font-semibold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 transition-colors inline-flex items-center justify-center gap-2">
+          <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z"/></svg>
+          <span>Need Help? Contact Support</span>
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="border-t border-slate-200/60 bg-white py-6 text-center text-xs text-slate-500">
+    © 2026 Say What You Think. All rights reserved.
+  </footer>
+</body>
+</html>
