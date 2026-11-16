@@ -26,7 +26,7 @@ export const PAYMENT_CONFIG = {
 
   // Razorpay Hosted Payment Link (Set this URL when available)
   // If set, clicking "Download Now – ₹399" will securely direct buyers straight to this link.
-  hostedPaymentLink: 'https://rzp.io/rzp/sh0ivCFU',
+  hostedPaymentLink: 'https://rzp.io/rzp/G3P61T2',
 
   // Razorpay Standard Checkout Key (Set when using Razorpay Checkout Modal)
   keyId: '',
