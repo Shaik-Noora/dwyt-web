@@ -12,6 +12,7 @@ import FinalCTA from './components/FinalCTA';
 import StickyBottomBar from './components/StickyBottomBar';
 import PaymentModal from './components/PaymentModal';
 import ThankYou from './components/ThankYou';
+import PurchaseNotification from './components/PurchaseNotification';
 import { initiatePayment } from './config/payment';
 
 function isThankYouRoute() {
@@ -91,6 +92,9 @@ export default function App() {
 
       {/* Sticky Bottom Purchase Bar */}
       <StickyBottomBar onPurchase={handlePurchase} />
+
+      {/* Floating Social-Proof Purchase Notification */}
+      <PurchaseNotification onPurchaseClick={handlePurchase} />
 
       {/* Payment / Checkout Modal */}
       <PaymentModal
